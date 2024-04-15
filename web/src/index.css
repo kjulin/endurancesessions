@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cm-focused {
+  outline: none !important;
+}
+
+:root {
+  --fc-border-color: var(--palette-border-subdued);
+  --fc-daygrid-event-dot-width: 5px;
+}
